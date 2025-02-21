@@ -15,6 +15,11 @@ public class Main{
          * 
          * 
         */
+        MusicBox mbox2 = new MusicBox("1234567", 'N', "song_title", "song_artists",
+                "song_Album", "song_genre", "song_producer", "song_label");
+
+        System.out.println("Now playing the song");
+        mbox.playSong(mbox2.getSongID(), mbox2.getPremiumSong(), 1);
         
 
     }
